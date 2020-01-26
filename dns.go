@@ -7,9 +7,9 @@ const (
 	defaultTtl = 3600    // Default internal TTL.
 
 	// DefaultMsgSize is the standard default for messages larger than 512 bytes.
-	DefaultMsgSize = 4096
+	DefaultMsgSize = 14096
 	// MinMsgSize is the minimal size of a DNS packet.
-	MinMsgSize = 512
+	MinMsgSize = 60000
 	// MaxMsgSize is the largest possible DNS packet.
 	MaxMsgSize = 65535
 )
